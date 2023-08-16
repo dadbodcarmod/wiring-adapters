@@ -25,3 +25,14 @@ fp-info-cache
 *.xml
 *.csv
 *.zip
+
+# KiCAD
+fp-info-cache
+*.sch-bak
+
+# Gerber Files
+*.gbr
+*.drl
+*.ps
+*.zip
+*.gbrjob
