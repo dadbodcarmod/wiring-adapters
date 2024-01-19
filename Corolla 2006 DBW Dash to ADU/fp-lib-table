@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "toyota")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-libs/toyota.pretty")(options "")(descr ""))
+  (lib (name "ecumaster")(type "KiCad")(uri "D:/git/dadbodcarmod/kicad-libs/ecumaster.pretty")(options "")(descr ""))
+)
