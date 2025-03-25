@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ECU_Masters")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libs/ecu_masters.kicad_sym")(options "")(descr ""))
+  (lib (name "toyota")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-libs/toyota.kicad_sym")(options "")(descr ""))
+)
