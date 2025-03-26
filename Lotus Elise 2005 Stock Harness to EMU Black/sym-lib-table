@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ecu_masters")(type "KiCad")(uri "${KIPRJMOD} /../kicad-libs/ecu_masters.kicad_sym")(options "")(descr ""))
+)
