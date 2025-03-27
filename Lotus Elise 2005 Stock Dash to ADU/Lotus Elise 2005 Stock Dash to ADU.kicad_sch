@@ -1,0 +1,3801 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b838fe9a-a77e-4e64-8c46-5cace4d6dffc")
+	(paper "USLetter")
+	(title_block
+		(title "Lotus Elise 2005 Stock Dash to ADU")
+		(date "2025-03-27")
+		(rev "v1")
+		(company "DadBodCadMod")
+		(comment 1 "Reusing the connectors from the Stock Dash")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ecu_masters:ADU_Connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J?"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADU_Connector"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADU_Connector_0_1"
+				(rectangle
+					(start 0 0)
+					(end 15.24 -88.9)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADU_Connector_1_1"
+				(pin power_out line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "USB.GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "USB.VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "CAN1.H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "CAN1.L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "CAN2.H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "CAN2.L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "RS232.RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "RS232.TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -21.59 0)
+					(length 2.54)
+					(name "Sensor_Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -24.13 0)
+					(length 2.54)
+					(name "+5V_Output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -26.67 0)
+					(length 2.54)
+					(name "Switched_12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -29.21 0)
+					(length 2.54)
+					(name "Battery_12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -31.75 0)
+					(length 2.54)
+					(name "USB.DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -34.29 0)
+					(length 2.54)
+					(name "USB.DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -36.83 0)
+					(length 2.54)
+					(name "Analog_In_A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -39.37 0)
+					(length 2.54)
+					(name "Analog_In_A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -41.91 0)
+					(length 2.54)
+					(name "Analog_In_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -44.45 0)
+					(length 2.54)
+					(name "Digital_In_D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -46.99 0)
+					(length 2.54)
+					(name "Digital_In_D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -49.53 0)
+					(length 2.54)
+					(name "Digital_In_D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -52.07 0)
+					(length 2.54)
+					(name "Digital_In_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -54.61 0)
+					(length 2.54)
+					(name "Power_Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -57.15 0)
+					(length 2.54)
+					(name "Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -59.69 0)
+					(length 2.54)
+					(name "Analog_In_A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -62.23 0)
+					(length 2.54)
+					(name "Analog_In_A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -64.77 0)
+					(length 2.54)
+					(name "Analog_In_A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -67.31 0)
+					(length 2.54)
+					(name "Analog_In_A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -69.85 0)
+					(length 2.54)
+					(name "Analog_In_A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -72.39 0)
+					(length 2.54)
+					(name "Analog_Output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -74.93 0)
+					(length 2.54)
+					(name "Digital_In_D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -77.47 0)
+					(length 2.54)
+					(name "Digital_In_D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -80.01 0)
+					(length 2.54)
+					(name "Digital_In_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -82.55 0)
+					(length 2.54)
+					(name "Digital_In_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -2.54 -85.09 0)
+					(length 2.54)
+					(name "Aux_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -2.54 -87.63 0)
+					(length 2.54)
+					(name "Aux_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ecu_masters:Lotus Elise 2025 - No DBW - Dash Connector One"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J?"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Lotus Elise 2005 - No DBW - Dash Connector One"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Lotus Elise 2025 - No DBW - Dash Connector One_0_1"
+				(rectangle
+					(start 0 0)
+					(end 26.67 -60.96)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lotus Elise 2025 - No DBW - Dash Connector One_1_1"
+				(polyline
+					(pts
+						(xy 0 -30.48) (xy 26.67 -30.48)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "12V_Battery"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "12V_Ignition"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "Rear_Fog_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -21.59 0)
+					(length 2.54)
+					(name "High_Beam_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -24.13 0)
+					(length 2.54)
+					(name "Alternator_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -26.67 0)
+					(length 2.54)
+					(name "Left_Blinker_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -29.21 0)
+					(length 2.54)
+					(name "Right_Blinker_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -31.75 0)
+					(length 2.54)
+					(name "Brake_Fluid_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -34.29 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -36.83 0)
+					(length 2.54)
+					(name "ABS_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -39.37 0)
+					(length 2.54)
+					(name "Seat_Belt_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -41.91 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -44.45 0)
+					(length 2.54)
+					(name "Running_Lights"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -46.99 0)
+					(length 2.54)
+					(name "Alarm_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -49.53 0)
+					(length 2.54)
+					(name "12V_Accessory"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -52.07 0)
+					(length 2.54)
+					(name "Panel_Illumination_Switch"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -54.61 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -57.15 0)
+					(length 2.54)
+					(name "Door_Ajar_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -59.69 0)
+					(length 2.54)
+					(name "SRS_Indicator"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ecu_masters:Lotus Elise 2025 - No DBW - Dash Connector Three"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J?"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Lotus Elise 2005 - No DBW - Dash Connector Three"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Lotus Elise 2025 - No DBW - Dash Connector Three_0_1"
+				(rectangle
+					(start 0 0)
+					(end 26.67 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lotus Elise 2025 - No DBW - Dash Connector Three_1_1"
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 26.67 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "CAN_High"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "A/C_Panel_Backlight"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "CAN_Low"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -21.59 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -24.13 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -26.67 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -29.21 0)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "25. ANALOG IN (A7)"
+		(exclude_from_sim no)
+		(at 151.384 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "078dfcf9-087e-4931-9821-3acb429cd0bb")
+	)
+	(text "3. CAN1.H"
+		(exclude_from_sim no)
+		(at 151.384 44.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "197ee75a-e185-4c11-89e2-ac4c8bb74772")
+	)
+	(text "31. FREQ / DIGITAL IN (D5)"
+		(exclude_from_sim no)
+		(at 151.384 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3107ca31-920e-47ea-9287-ea9d90a4664a")
+	)
+	(text "19. FREQ / DIGITAL IN (D6)"
+		(exclude_from_sim no)
+		(at 151.384 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31b995b5-dfc9-4144-8a80-60ae2bfab24e")
+	)
+	(text "28. ANALOG IN (A2)"
+		(exclude_from_sim no)
+		(at 151.384 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ce8bb7-a3d2-4b0d-acd0-a05443a84183")
+	)
+	(text "14. USB.DP"
+		(exclude_from_sim no)
+		(at 151.384 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4aa822d5-e8ad-4e1b-aeef-e8294ec9ea24")
+	)
+	(text "21. FREQ / DIGITAL IN (D2)"
+		(exclude_from_sim no)
+		(at 151.384 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bcb6634-b1c0-4d89-a661-23f0be80f941")
+	)
+	(text "1. USB GND"
+		(exclude_from_sim no)
+		(at 151.384 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd8cb17-1101-4597-8ad3-d32a11ec5df1")
+	)
+	(text "8. RS232.TXD"
+		(exclude_from_sim no)
+		(at 151.384 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50318d71-7cce-48de-9117-f2c2a9080456")
+	)
+	(text "12. BATTERY 12V"
+		(exclude_from_sim no)
+		(at 151.384 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "524e1b51-f9f2-4faf-9ade-0da5bdc2c66d")
+	)
+	(text "35. AUX 2"
+		(exclude_from_sim no)
+		(at 151.384 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "543f47e3-32ef-4ca0-a3cd-1a83446d3585")
+	)
+	(text "FIXME:\n- Panel Illumination Switch\n- A/C Panel Backlight - Full power or need dimmer?"
+		(exclude_from_sim no)
+		(at 62.23 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b1c2f90-39c0-46ff-a1e2-a51ffc4404fe")
+	)
+	(text "6. CAN2.L"
+		(exclude_from_sim no)
+		(at 151.384 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70343265-abf9-45d6-a8d0-6e40a0baed9f")
+	)
+	(text "34. AUX 1"
+		(exclude_from_sim no)
+		(at 151.384 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75a7ceb2-8a68-4bfd-a38b-b92ebc3cc3dc")
+	)
+	(text "13. USB.DM"
+		(exclude_from_sim no)
+		(at 151.384 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a3ed4dd-a919-4d42-934c-0571bc89f601")
+	)
+	(text "30. FREQ / DIGITAL IN (D7)"
+		(exclude_from_sim no)
+		(at 151.384 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8954a466-374d-4e68-ab8a-984b1c741ed5")
+	)
+	(text "32. FREQ / DIGITAL IN (D3)"
+		(exclude_from_sim no)
+		(at 151.384 117.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e700349-ca2e-43aa-82c2-5f83dbb06d21")
+	)
+	(text "4. CAN1.L"
+		(exclude_from_sim no)
+		(at 151.384 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98787aea-9046-4e48-a725-23d8d3e442ae")
+	)
+	(text "7. RS232.RXD"
+		(exclude_from_sim no)
+		(at 151.384 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "989f9fea-b203-4ffb-9d4d-f656b7b18d1b")
+	)
+	(text "10. +5V OUTPUT"
+		(exclude_from_sim no)
+		(at 151.384 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a234c00e-a79f-4985-9ceb-30550b9129f7")
+	)
+	(text "11. SWITCHED 12V"
+		(exclude_from_sim no)
+		(at 151.384 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6767b11-f772-4790-920b-b7d5db81afb2")
+	)
+	(text "27. ANALOG IN (A4)"
+		(exclude_from_sim no)
+		(at 151.384 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9e79583-9e9c-46d4-b076-d77e70258e2e")
+	)
+	(text "24. ANALOG IN (A8)"
+		(exclude_from_sim no)
+		(at 151.384 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afc8df5e-2443-4763-8e83-444ab7d87943")
+	)
+	(text "16. ANALOG IN (A3)"
+		(exclude_from_sim no)
+		(at 151.384 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b10eb892-1061-4749-be6e-312323830ae8")
+	)
+	(text "18. FREQ / DIGITAL IN (D8)"
+		(exclude_from_sim no)
+		(at 151.384 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf9f3b25-de31-4a71-abd0-89a0a3d98b78")
+	)
+	(text "9. SENSOR GROUND"
+		(exclude_from_sim no)
+		(at 151.384 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9813bb-abdb-4d59-89e2-4124060d4560")
+	)
+	(text "26. ANALOG IN (A6)"
+		(exclude_from_sim no)
+		(at 151.384 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc8f7471-5fb1-449d-8e0c-ea16b1c3486d")
+	)
+	(text "29. ANALOG OUTPUT"
+		(exclude_from_sim no)
+		(at 151.384 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce78ee37-0dec-4641-9a26-b5195e4d38a4")
+	)
+	(text "23. GROUND"
+		(exclude_from_sim no)
+		(at 151.384 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3a0c5bd-b0b0-4baa-97d1-797490c7e9ea")
+	)
+	(text "5. CAN2.H"
+		(exclude_from_sim no)
+		(at 151.384 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d43dfa4f-a16a-459f-9349-8d97c2d90333")
+	)
+	(text "2. USB VBUS"
+		(exclude_from_sim no)
+		(at 151.384 41.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2a132a9-a91d-47ef-aaac-405dc69d69e2")
+	)
+	(text "22. POWER GROUND"
+		(exclude_from_sim no)
+		(at 151.384 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec5d01e3-c3d4-41d3-a79b-ca73d432b62f")
+	)
+	(text "17. ANALOG IN (A1)"
+		(exclude_from_sim no)
+		(at 151.384 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f113f83a-39bb-42ab-9343-31d8da831b54")
+	)
+	(text "15. ANALOG IN (A5)"
+		(exclude_from_sim no)
+		(at 151.384 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f40bd983-fb1d-4ab8-8f8e-ec3ce279ea3c")
+	)
+	(text "20. FREQ / DIGITAL IN (D4)"
+		(exclude_from_sim no)
+		(at 151.384 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fde247d6-7710-43e9-ac6b-5e36a8fa5204")
+	)
+	(text "33. FREQ / DIGITAL IN (D1)"
+		(exclude_from_sim no)
+		(at 151.384 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe760004-c832-4c35-92d0-ece91bbfcd91")
+	)
+	(no_connect
+		(at 133.35 121.92)
+		(uuid "4ed946e9-1bb1-4275-b274-51efb613536f")
+	)
+	(no_connect
+		(at 133.35 48.26)
+		(uuid "5530e42f-27ff-4d2e-a033-41186bf96641")
+	)
+	(no_connect
+		(at 133.35 76.2)
+		(uuid "88391edc-3324-490d-a0fa-c91e05cb3509")
+	)
+	(no_connect
+		(at 133.35 50.8)
+		(uuid "9275b5eb-5057-49db-8b8a-7635c25268b1")
+	)
+	(no_connect
+		(at 71.12 86.36)
+		(uuid "a3d86f3b-025e-41c6-b501-074f52e2cb60")
+	)
+	(no_connect
+		(at 71.12 88.9)
+		(uuid "a45aa0f2-ccfc-4d97-9090-ea945025eba6")
+	)
+	(no_connect
+		(at 133.35 124.46)
+		(uuid "adef892d-9c0f-4f94-819f-3a9159c755f7")
+	)
+	(no_connect
+		(at 133.35 55.88)
+		(uuid "db4ced95-b1b7-4515-b302-a4a8859e710d")
+	)
+	(no_connect
+		(at 133.35 73.66)
+		(uuid "e341b4e3-ae44-4f88-96d9-753091dcefcd")
+	)
+	(no_connect
+		(at 133.35 109.22)
+		(uuid "eb45e34b-870f-40f2-a814-89792b24077c")
+	)
+	(no_connect
+		(at 133.35 53.34)
+		(uuid "f76873d3-a123-473a-b11a-d4e3fd59348d")
+	)
+	(label "12V Battery"
+		(at 133.35 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00c78b1c-9924-4fee-926a-934e29cab263")
+	)
+	(label "12V Battery"
+		(at 71.12 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "058fb056-5169-4c0a-9b38-c26e0917b414")
+	)
+	(label "Running Lights"
+		(at 133.35 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07f7b54f-2d27-48a5-b947-62667e9bf8ad")
+	)
+	(label "Rotary Switch"
+		(at 194.31 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c8dd692-2989-4e1b-8c53-119e665b2765")
+	)
+	(label "Sensor Ground"
+		(at 194.31 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cadae4c-2288-4cfd-8d1a-79749b408b6f")
+	)
+	(label "USB.VBUS"
+		(at 133.35 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e7cc085-aa9b-4e86-b0d8-357dc35f44f1")
+	)
+	(label "5V Sensor Ref"
+		(at 133.35 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1059b44d-9e36-4aa6-976f-03fda427d2e0")
+	)
+	(label "12V Ignition"
+		(at 133.35 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10710456-2714-474f-9ee7-6198ad408770")
+	)
+	(label "Door Ajar"
+		(at 71.12 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10a364bf-2a2f-4117-ac88-7fc9804d5e97")
+	)
+	(label "Alarm LED"
+		(at 194.31 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1385f53f-5f32-42be-8941-33ea84cb2616")
+	)
+	(label "Ground"
+		(at 71.12 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b9978f4-fed2-42e3-8794-f5c9dcbd3971")
+	)
+	(label "ABS Light"
+		(at 133.35 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30d7b884-aa96-47d9-a936-de89be9a7df3")
+	)
+	(label "Right Blinker"
+		(at 71.12 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "384cf38e-a39c-4a80-b242-dcc01091fec0")
+	)
+	(label "Brake Fluid"
+		(at 71.12 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a17b15b-1aad-4da8-91c4-3fe865725f3f")
+	)
+	(label "Ground"
+		(at 133.35 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c622c1b-32e6-4abf-88ff-f901700191db")
+	)
+	(label "Ground"
+		(at 194.31 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ee6de06-3f4e-4e91-a5e1-a95be9efda4b")
+	)
+	(label "CAN High"
+		(at 71.12 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4aea22a8-29e1-494c-ac4f-ed341503902f")
+	)
+	(label "USB.DM"
+		(at 194.31 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59bb9e54-fa6d-400a-b5ec-d132aa0a2e8a")
+	)
+	(label "Trans Temp"
+		(at 133.35 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5dcd617d-41df-4fe7-9a60-bfab5860f6ce")
+	)
+	(label "CAN High"
+		(at 133.35 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62075fc2-b397-4729-a1e7-fe7698968e2d")
+	)
+	(label "USB.VBUS"
+		(at 194.31 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "682f4e74-b6a8-4637-b49c-0975e3f7bc9b")
+	)
+	(label "USB.GND"
+		(at 133.35 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69f70e30-a9d5-4e9f-b511-16fa7205d0e8")
+	)
+	(label "Race {slash} Road Switch"
+		(at 194.31 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e7437d9-e29f-4b0a-9269-4950f5d9c971")
+	)
+	(label "Sensor Ground"
+		(at 133.35 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f838980-3f91-4340-82a6-5aad9325b148")
+	)
+	(label "Sensor Ground"
+		(at 194.31 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f9e92ae-4256-47a3-9c35-1ff96d351896")
+	)
+	(label "CAN Low"
+		(at 133.35 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fedbd5b-b174-4d3e-a24f-b600ca582ab6")
+	)
+	(label "SRS Light"
+		(at 133.35 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d256b7c-486b-465b-8aaf-856cb4add220")
+	)
+	(label "5V Sensor Ref"
+		(at 194.31 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84f37fe4-f9cf-42b1-8320-4d4fa7e7dfcf")
+	)
+	(label "USB.GND"
+		(at 194.31 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87f2c701-941f-435f-a60d-bf78b0894a29")
+	)
+	(label "CAN Low"
+		(at 71.12 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d017daa-9b0f-4947-82d7-68e5e7847040")
+	)
+	(label "High Beam"
+		(at 133.35 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e803013-4c9a-462b-a81e-930a7f564864")
+	)
+	(label "Rotary Switch"
+		(at 133.35 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "956b49ae-6f57-4ed0-ba67-6f86189eb57d")
+	)
+	(label "12V Ignition"
+		(at 71.12 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98611c56-5aa9-4502-a18f-ee9caf983a2d")
+	)
+	(label "USB.DP"
+		(at 133.35 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99f0f9e8-1ddc-4cac-ad80-c17945dbcb65")
+	)
+	(label "Left Blinker"
+		(at 71.12 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aad626f-5b5c-4044-b642-c684d4b8d223")
+	)
+	(label "Running Lights"
+		(at 71.12 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b9e932c-4a54-415c-b620-2ebe3203b8a2")
+	)
+	(label "Door Ajar"
+		(at 133.35 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9cf0e14d-7d3a-473f-8067-f12c6617bf9a")
+	)
+	(label "USB.DM"
+		(at 133.35 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2579804-1db2-4f67-988c-4451e6140309")
+	)
+	(label "Rear Fog Light"
+		(at 133.35 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b479185a-7e9c-4a34-9c3e-bf3a371ab32d")
+	)
+	(label "Running Lights"
+		(at 71.12 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc75763-1716-4d3e-9384-82ea4a18a983")
+	)
+	(label "USB.DP"
+		(at 194.31 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1d44766-2b54-4b5a-b54a-8049772f0779")
+	)
+	(label "Left Blinker"
+		(at 133.35 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c429b8e5-21c5-4469-807b-7bef8383aa0c")
+	)
+	(label "Alternator"
+		(at 71.12 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c742b404-fd2d-4f34-ac43-fb54f16807d4")
+	)
+	(label "Alternator"
+		(at 133.35 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb94e06a-1e96-4409-a9b8-a76e1dad2d0c")
+	)
+	(label "SRS Light"
+		(at 71.12 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cea5ef8f-f3f7-4176-9ae9-ca5440f46f6f")
+	)
+	(label "Seat Belts"
+		(at 71.12 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d91810ac-ed00-4654-8c08-e0871b5d056b")
+	)
+	(label "Seat Belts"
+		(at 133.35 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9f5e1b3-f600-4c46-821a-3e33c8965ab8")
+	)
+	(label "Rear Fog Light"
+		(at 71.12 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da1a1e70-520b-43b8-ab7b-e5f5b4fc4e88")
+	)
+	(label "Brake Fluid"
+		(at 133.35 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e07e065b-d55c-4ca3-8c85-a4f8fc8f067a")
+	)
+	(label "Sensor Ground"
+		(at 194.31 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6206903-2d56-4352-b4ce-acf2bb7c62f6")
+	)
+	(label "Trans Temp"
+		(at 194.31 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e97da4e5-0293-4452-97b7-c02938572718")
+	)
+	(label "ABS Light"
+		(at 71.12 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f383ee58-200f-4e6a-a10c-76fd4c3cf4ef")
+	)
+	(label "Right Blinker"
+		(at 133.35 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3a715cf-d69a-427d-983e-83eca7cefc46")
+	)
+	(label "Alarm LED"
+		(at 71.12 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6eed13c-0911-49ff-8738-f6e9b3fcf62a")
+	)
+	(label "Ground"
+		(at 133.35 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8123a36-8277-44f0-bad8-861b4c558079")
+	)
+	(label "Race {slash} Road Switch"
+		(at 133.35 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe68b671-1bee-4577-a649-aeea9dfe5f10")
+	)
+	(label "High Beam"
+		(at 71.12 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff21cd44-da6c-4236-b2ef-344b7e994568")
+	)
+	(symbol
+		(lib_id "ecu_masters:Lotus Elise 2025 - No DBW - Dash Connector Three")
+		(at 68.58 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a08fd3a-9fe2-4c56-a65b-c83a03f5d2eb")
+		(property "Reference" "J3"
+			(at 55.245 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lotus Elise 2005 - No DBW - Dash Connector Three"
+			(at 55.245 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C12"
+			(uuid "db0654f3-6542-47a7-8b43-e4984ab722e5")
+		)
+		(pin "C6"
+			(uuid "69a20140-9b9c-4a35-a245-bf9831553511")
+		)
+		(pin "C4"
+			(uuid "b6dd8b86-e213-43e9-b64e-532d177f7b38")
+		)
+		(pin "C11"
+			(uuid "586a1272-76eb-4c42-bd69-65f6d561376c")
+		)
+		(pin "C3"
+			(uuid "4f79bf3f-f75e-45ec-8a9d-9a78efc560a9")
+		)
+		(pin "C7"
+			(uuid "4afe6dff-dc1e-4eee-bf4e-e89ef0575123")
+		)
+		(pin "C10"
+			(uuid "54c80698-3a93-49e1-aaf9-c152fb4c5596")
+		)
+		(pin "C9"
+			(uuid "44f5712e-6022-41a8-8a25-f1aa22e1ee11")
+		)
+		(pin "C1"
+			(uuid "96c54685-665c-4690-a1f1-cc41b9404a48")
+		)
+		(pin "C2"
+			(uuid "0bd40625-f08c-4603-b7da-cd9bc4526d21")
+		)
+		(pin "C5"
+			(uuid "74510a8b-2405-4a93-8d99-6741b2c9ef69")
+		)
+		(pin "C8"
+			(uuid "3ed948d9-e440-44e4-b784-0b4ac812efc8")
+		)
+		(instances
+			(project ""
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 199.39 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "333c05b1-a4b5-4c41-bb6c-81c9fd0f30a0")
+		(property "Reference" "J4"
+			(at 198.374 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Race / Road Switch"
+			(at 198.374 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf33a7b6-219c-4892-b4f6-26c652c418c2")
+		)
+		(pin "2"
+			(uuid "cfab7cc9-aa70-474f-a1de-db26eb5f6f78")
+		)
+		(instances
+			(project ""
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 199.39 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a6d5bbb-916d-4b8f-a29d-b96ceed289b9")
+		(property "Reference" "J7"
+			(at 198.374 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Transmission Temp"
+			(at 198.374 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af51cc2a-9447-4156-9120-d8b8bb82bd78")
+		)
+		(pin "2"
+			(uuid "baad2dae-b603-410f-919b-62e6669556e9")
+		)
+		(instances
+			(project "Lotus Elise 2005 Stock Dash to ADU"
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 199.39 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5724ae96-6f9e-4742-9dfe-96289488b4a9")
+		(property "Reference" "J8"
+			(at 198.12 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB Data Logger"
+			(at 198.12 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "688ed889-9cab-45e2-aee9-f3bf1e3ee7a9")
+		)
+		(pin "1"
+			(uuid "7d92119b-2af6-4f02-85b8-8dc844ed98e1")
+		)
+		(pin "2"
+			(uuid "1626b280-99d7-4e70-bd56-cbb2da5c49d9")
+		)
+		(pin "3"
+			(uuid "69c9759c-f73d-432a-94b7-3f2bd90e5073")
+		)
+		(instances
+			(project ""
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecu_masters:Lotus Elise 2025 - No DBW - Dash Connector One")
+		(at 68.58 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec0a728-492f-4f18-9e5a-1132fd101f3c")
+		(property "Reference" "J2"
+			(at 55.245 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lotus Elise 2005 - No DBW - Dash Connector One"
+			(at 55.245 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A8"
+			(uuid "657960d6-a08c-4529-9570-87ba7b7af51e")
+		)
+		(pin "A2"
+			(uuid "d30e519f-e88f-4d23-8f37-faf8fb317acc")
+		)
+		(pin "A3"
+			(uuid "73dc9a5f-fa1d-4207-b191-6b584e117187")
+		)
+		(pin "B12"
+			(uuid "0e6f520e-4ebb-4c80-bd4d-858d03754d8a")
+		)
+		(pin "A9"
+			(uuid "d593940b-8f37-41cc-a9f7-c5fa06fc5dd1")
+		)
+		(pin "A6"
+			(uuid "1125c22c-0164-4b64-bde0-339e373c89f7")
+		)
+		(pin "B9"
+			(uuid "52b58eea-dd69-4328-9764-b902e5168b1e")
+		)
+		(pin "A1"
+			(uuid "f70b399b-270e-483d-85ea-bb3d9ec7f036")
+		)
+		(pin "A7"
+			(uuid "94e88515-d957-4201-9205-caae0416bebe")
+		)
+		(pin "B2"
+			(uuid "2ec49dc6-fd12-4430-a74d-11a4e225ea12")
+		)
+		(pin "B5"
+			(uuid "fca57d1c-33e3-4d78-9565-b45533c8dafd")
+		)
+		(pin "B7"
+			(uuid "0db0707f-4754-4e17-b058-8d0d1b241100")
+		)
+		(pin "B11"
+			(uuid "ff1377d7-f84e-4370-bb2f-a49b0ca7a22f")
+		)
+		(pin "A11"
+			(uuid "e495f02b-1c06-4cc6-b805-7d2a843f8e32")
+		)
+		(pin "B1"
+			(uuid "1cb22aeb-095e-4dbb-aeef-e9a98005c110")
+		)
+		(pin "B3"
+			(uuid "92f0b1ac-a2d5-48e7-a22c-41ae1a37a65e")
+		)
+		(pin "A4"
+			(uuid "a40e0501-5521-435c-a55e-d2a4e470dbe5")
+		)
+		(pin "B4"
+			(uuid "33c973cf-890a-45b3-b879-0e61f16b49e1")
+		)
+		(pin "B6"
+			(uuid "0e9d4a95-6cf9-4858-be6e-7ce45a96164b")
+		)
+		(pin "A12"
+			(uuid "25f64043-0101-46ef-94b9-10ee1c188b6a")
+		)
+		(pin "B8"
+			(uuid "e8405544-7578-4707-9b45-0d813fb463cd")
+		)
+		(pin "B10"
+			(uuid "b1db199f-368b-4bca-a84b-623a7831a829")
+		)
+		(pin "A5"
+			(uuid "1faf9984-95e3-4d57-9eda-38692ab9d672")
+		)
+		(pin "A10"
+			(uuid "a7852638-3daa-4144-9668-0010d5e2ef12")
+		)
+		(instances
+			(project ""
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecu_masters:ADU_Connector")
+		(at 135.89 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9623d06-318a-4863-9db4-bdd1f8ab2f52")
+		(property "Reference" "J1"
+			(at 136.398 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADU_Connector"
+			(at 136.398 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebbde49e-28ba-4e83-b730-7b84f34a313e")
+		)
+		(pin "30"
+			(uuid "2dc51fa1-355c-4c26-9ab3-351571cdb68d")
+		)
+		(pin "14"
+			(uuid "e1f852f8-df19-4868-8849-66ebb289490c")
+		)
+		(pin "16"
+			(uuid "3e01265f-f5a3-4635-8d63-f5ea295de5ce")
+		)
+		(pin "10"
+			(uuid "ddc47fee-70dc-4fd7-84e1-d470c632daee")
+		)
+		(pin "8"
+			(uuid "50c6e57a-2fae-42c5-83a5-3261abeb77da")
+		)
+		(pin "17"
+			(uuid "1a75b1c0-4ded-49fd-aa75-5edd5bd14602")
+		)
+		(pin "32"
+			(uuid "816d9b2b-c60a-4947-9da6-57c2379866f0")
+		)
+		(pin "34"
+			(uuid "ae43d03c-8745-472c-8fc1-e24b2882ef6e")
+		)
+		(pin "9"
+			(uuid "33944434-798b-4a78-9d04-580442db422f")
+		)
+		(pin "26"
+			(uuid "055e3c7b-6ed7-4544-b0fd-7dfab4fbb6da")
+		)
+		(pin "22"
+			(uuid "0633bfc1-5e32-40b5-bfa7-da8a8faf37a6")
+		)
+		(pin "31"
+			(uuid "bfe49d4a-19d0-4555-8c40-df4c1a3e14a7")
+		)
+		(pin "15"
+			(uuid "9cd62566-e948-4eec-8fdb-666094704f29")
+		)
+		(pin "35"
+			(uuid "d1bd6195-4df4-495d-b3b5-c7c7949fc68c")
+		)
+		(pin "6"
+			(uuid "8451db22-1c0f-4671-aff4-f13c38f3a39a")
+		)
+		(pin "4"
+			(uuid "f9b4938d-18fa-4b90-8bfd-5cb1b9480f43")
+		)
+		(pin "27"
+			(uuid "37d62b84-13cc-4d09-9fe6-5cdf664a1383")
+		)
+		(pin "23"
+			(uuid "ba8032ce-26c8-4da8-8119-b8eb892f657c")
+		)
+		(pin "13"
+			(uuid "3d7272ca-9aa8-4ddd-9d60-2d2ee0546763")
+		)
+		(pin "21"
+			(uuid "0763f732-fc4b-4c7c-8e37-f270d9ec619f")
+		)
+		(pin "29"
+			(uuid "54a08ef6-dd46-4ea2-ae7d-f14c2421abdd")
+		)
+		(pin "11"
+			(uuid "145c417b-4152-473d-94b0-4dd8eeee258e")
+		)
+		(pin "12"
+			(uuid "22f033fb-17d1-46a4-abfd-015e826a61e4")
+		)
+		(pin "20"
+			(uuid "07c163e3-119e-4cdf-b0bd-8c4a1f1dd235")
+		)
+		(pin "25"
+			(uuid "96d4cdfb-c7e8-41fa-8940-9b329e18ecc4")
+		)
+		(pin "19"
+			(uuid "e4bf93f9-7071-4562-bc8f-5a1af140775e")
+		)
+		(pin "7"
+			(uuid "153bfeae-4683-4b42-87c0-e05003dfb19b")
+		)
+		(pin "5"
+			(uuid "24b6f0f0-eab7-4931-8241-8658bfa72cf7")
+		)
+		(pin "24"
+			(uuid "854d80fb-dc9e-4a36-9914-f604aeb9021a")
+		)
+		(pin "28"
+			(uuid "3975fd59-1d5e-4f2a-aa26-73a6afa78942")
+		)
+		(pin "2"
+			(uuid "32cbb8a0-b8a2-41d6-8912-fb7794154603")
+		)
+		(pin "3"
+			(uuid "8e9225d1-9c44-4c0d-98d7-56af10f3cf03")
+		)
+		(pin "33"
+			(uuid "ad305277-6c94-4406-a840-4a1c29667bd3")
+		)
+		(pin "18"
+			(uuid "4536e37c-c15d-4308-8d9f-ccec2c315756")
+		)
+		(instances
+			(project ""
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 199.39 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b98ecfd1-80a3-4370-82b8-0039dd354664")
+		(property "Reference" "J5"
+			(at 198.12 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Display Knob"
+			(at 198.12 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "200ceeab-fd4a-41af-af33-2f0a0bb7db5b")
+		)
+		(pin "1"
+			(uuid "60bf36bf-dc7b-43f7-b0e8-cafcfb0a2021")
+		)
+		(pin "2"
+			(uuid "64ce4220-464b-428e-8085-711ba984dc16")
+		)
+		(instances
+			(project ""
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 199.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a9ea0f-a099-4a97-b98d-58d2080d9d98")
+		(property "Reference" "J6"
+			(at 197.866 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Alarm LED 12V"
+			(at 197.866 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a45f9b8-b57b-4737-a965-ce6aa459a5e7")
+		)
+		(pin "2"
+			(uuid "29a9ad92-46e2-4b23-b897-863b508c5f23")
+		)
+		(instances
+			(project "Lotus Elise 2005 Stock Dash to ADU"
+				(path "/b838fe9a-a77e-4e64-8c46-5cace4d6dffc"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
